@@ -1,0 +1,215 @@
+.grid-container {
+    display: flex;
+}
+
+.main {
+    margin-top: -10px;
+}
+
+.input-card-main {
+    margin: 20px;
+    width: 80%;
+}
+
+.option-card-main {
+    border: 1px solid black;
+    width: 30%;
+    margin: 20px;
+    padding-left: 20px;
+}
+
+.input-card {
+    padding: 1.25rem;
+}
+
+.flight-card-main {
+    width: 70%;
+}
+
+.flight-card {
+    padding: 1rem;
+    margin-top: 20px;
+
+}
+
+.grid-pic {
+    margin: 20px;
+    width: 15%;
+}
+
+.img-size {
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.overlay-text i {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.overlay-text text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input-group {
+    display: flex;
+}
+
+.input-first {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.input-second {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.input-group .icon {
+    position: absolute;
+    left: 0px;
+}
+
+.p-button-help {
+    color: #4B0096;
+    background: #E6E0EB;
+    border: 1px solid #E6E0EB;
+}
+
+.p-button-help.selected {
+    background-color: #4B0096;
+    border-color: #4B0096;
+    color: #ffffff;
+}
+
+.p-button-help:not(:disabled):hover {
+    background: #7E22CE;
+    color: #ffffff;
+}
+
+.p-button-help:focus {
+    box-shadow: 0 0 0 0.2rem #E9D5FF;
+}
+
+.custom-radius-round-trip {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.custom-radius-one-way {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-button-submit {
+    background-color: #4B0096;
+}
+
+.pi-bookmark-fill,
+.pi-globe {
+    color: #4B0096;
+}
+
+.p-calendar {
+    background-color: lightblue;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar-title {
+    top: 10px;
+}
+
+.input-flight-card-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.flight-info-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flight-info-item {
+    padding: 1rem;
+
+}
+
+.clock-title {
+    font-weight: bold;
+}
+
+.departure-title,
+.airport-title {
+    color: #6D6D6D;
+}
+
+.country-name {
+    color: #16855A;
+}
+
+.flight-price-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-title {
+    color: #421792
+}
+
+.button-container {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.book-flight-button {
+    width: 200px;
+    height: 70px;
+    bottom: -50px;
+    right: -17px;
+    justify-content: center;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.price-container {}
+
+.divider {
+    border: 1px solid gray;
+    width: 100px;
+    height: 0px;
+    margin-top: 75px;
+}

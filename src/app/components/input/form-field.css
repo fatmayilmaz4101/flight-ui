@@ -1,0 +1,24 @@
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-icon-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.icon-container {
+    position: absolute;
+    left: 20px;
+    color: #4B0097;
+    text-shadow: 1px 1px 1px #4B0097;
+    /* Gölge ile kalınlık efekti oluştur */
+
+}
+
+.input-with-icon {
+    padding-left: 2.5rem;
+}
